@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Books</title>
+	<link rel="stylesheet" type="text/css" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+	<link rel="stylesheet" type="text/css" href="../node_modules/bulma/css/bulma.min.css">
+</head>
+<body>
+
+<!-- NAVIGATION-BAR -->
+<nav class="navbar has-shadow">
+	<div class="navbar-brand">
+		<div class="navbar-item">
+			<img src="../assets/images/icon.png" alt="">
+		</div>
+		<div class="navbar-burger burger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>	
+	</div>
+	<div class="navbar-menu">
+		<div class="navbar-start">
+			<div class="navbar-item">
+				<p>
+					<img src="../assets/images/type.png" alt="" width="200">
+					<br>
+					<strong>This is the cutting edge technology</strong>
+				</p>
+			</div>
+
+			<div class="navbar-item">
+				<a href="">
+					Home
+				</a>
+			</div>
+			<div class="navbar-item">
+				<a href="">
+					Contact Us
+				</a>
+			</div>
+			<div class="navbar-item">
+				<a href="">
+					About Us
+				</a>
+			</div>
+			<div class="navbar-item has-dropdown is-hoverable">
+				<a href="" class="navbar-link">
+					More
+				</a>
+				<div class="navbar-dropdown">
+					<div class="navbar-item">
+						<a href="">
+							Documentation
+						</a>
+					</div>
+					<div class="navbar-item">
+						<a href="">
+							Photography
+						</a>
+					</div>
+					<div class="navbar-item">
+						<a href="">
+							Supporting
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar-end">
+			<div class="navbar-item has-dropdown is-hoverable">
+				<a href="" class="navbar-link">
+					Danny Adil
+				</a>
+				<div class="navbar-dropdown">
+					<div class="navbar-item">
+						<a href="">
+							<span class="icon"><i class="fa fa-user-circle"></i></span>
+							Profile
+						</a>
+					</div>
+					<div class="navbar-item">
+						<a href="">
+							<span class="icon"><i class="fa fa-bug"></i></span>
+							Report Bug
+						</a>
+					</div>
+					<div class="navbar-item">
+						<a href="">
+							<span class="icon"><i class="fa fa-sign-out-alt"></i></span>
+							Sign out
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- BODY -->
+<section class="section">
+	<div class="columns">
+		<div class="column is-4-tablet is-3-desktop is-2-widescreen">
+			<nav class="menu">
+				<label class="menu-label">MENU</label>
+				<ul class="menu-list">
+					<li>
+						<a href="dahsboard.html">
+							<span class="icon"><i class="fa fa-tachometer-alt"></i></span>
+							Dashboard
+						</a>
+					</li>
+					<li>
+						<a href="books.html" class="is-active">
+							<span class="icon"><i class="fa fa-book"></i></span>
+							Books
+						</a>
+					</li>
+					<li>
+						<a href="cutomers.html">
+							<span class="icon"><i class="fa fa-address-book"></i></span>
+							Customers
+						</a>
+					</li>
+					<li>
+						<a href="orders.html">
+							<span class="icon"><i class="fa fa-file-alt"></i></span>
+							Orders
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="column">
+			<!-- HEADER -->
+			<h1 class="title">BOOKS</h1>
+			<!-- TOOLBAR -->
+			<div class="level">
+				<div class="level-left">
+					<div class="level-item">
+						<p><strong><a href="book.html">5</a></strong> books</p>
+					</div>
+					<div class="level-item">
+						<a href="new-book.html" class="button is-success">New</a>		
+					</div>
+					<div class="level-item is-hidden-tablet-only">
+						<div class="field has-addons">
+							<div class="control">
+								<input type="text" name="" id="" class="input" placeholder="Book name, ISBN, ...">
+							</div>
+							<div class="control">
+								<button class="button">Search</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="level-right">
+					<div class="level-item">
+						Order by
+					</div>
+					<div class="level-item">
+						<div class="select">
+							<select name="" id="">
+								<option value="">Published date</option>
+								<option value="">Author</option>
+								<option value="">Page Count</option>
+								<option value="">Discount</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- BOOKS-LIST -->
+			<div class="columns is-multiline">
+				<div class="column is-12-tablet is-6-desktop is-4-widescreen">
+					<article class="box">
+						<div class="media">
+							<aside class="media-left">
+								<img src="../assets/images/docker.jpg" alt="" width="80">
+							</aside>
+							<div class="media-content">
+								<a href="book.html" class="title is-4 is-marginless">Docker</a>
+								<br>
+								<span class="tag is-small is-rounded is-info">USD19.99</span>
+								<div class="content is-small">
+									200 pages
+									<br>
+									ISBN: 3938494994949494
+									<br>
+									<a href="edit-book.html">Edit</a>
+									<span>.</span>
+									<a href="">Delete</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="column is-12-tablet is-6-desktop is-4-widescreen">
+					<article class="box">
+						<div class="media">
+							<aside class="media-left">
+								<img src="../assets/images/google-cardboard.jpg" alt="" width="80">
+							</aside>
+							<div class="media-content">
+								<a href="book.html" class="title is-4 is-marginless">Google Cardboard</a>
+								<br>
+								<span class="tag is-small is-rounded is-info">USD19.99</span>
+								<div class="content is-small">
+									200 pages
+									<br>
+									ISBN: 3938494994949494
+									<br>
+									<a href="edit-book.html">Edit</a>
+									<span>.</span>
+									<a href="">Delete</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="column is-12-tablet is-6-desktop is-4-widescreen">
+					<article class="box">
+						<div class="media">
+							<aside class="media-left">
+								<img src="../assets/images/gulp.jpg" alt="" width="80">
+							</aside>
+							<div class="media-content">
+								<a href="book.html" class="title is-4 is-marginless">Gulp</a>
+								<br>
+								<span class="tag is-small is-rounded is-info">USD19.99</span>
+								<div class="content is-small">
+									200 pages
+									<br>
+									ISBN: 3938494994949494
+									<br>
+									<a href="edit-book.html">Edit</a>
+									<span>.</span>
+									<a href="">Delete</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="column is-12-tablet is-6-desktop is-4-widescreen">
+					<article class="box">
+						<div class="media">
+							<aside class="media-left">
+								<img src="../assets/images/js-framework.jpg" alt="" width="80">
+							</aside>
+							<div class="media-content">
+								<a href="book.html" class="title is-4 is-marginless">Javascript Framework</a>
+								<br>
+								<span class="tag is-small is-rounded is-info">USD19.99</span>
+								<div class="content is-small">
+									200 pages
+									<br>
+									ISBN: 3938494994949494
+									<br>
+									<a href="edit-book.html">Edit</a>
+									<span>.</span>
+									<a href="">Delete</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="column is-12-tablet is-6-desktop is-4-widescreen">
+					<article class="box">
+						<div class="media">
+							<aside class="media-left">
+								<img src="../assets/images/swift.jpg" alt="" width="80">
+							</aside>
+							<div class="media-content">
+								<a href="book.html" class="title is-4 is-marginless">Swift</a>
+								<br>
+								<span class="tag is-small is-rounded is-info">USD19.99</span>
+								<div class="content is-small">
+									200 pages
+									<br>
+									ISBN: 3938494994949494
+									<br>
+									<a href="edit-book.html">Edit</a>
+									<span>.</span>
+									<a href="">Delete</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="column is-12-tablet is-6-desktop is-4-widescreen">
+					<article class="box">
+						<div class="media">
+							<aside class="media-left">
+								<img src="../assets/images/tensorflow.jpg" alt="" width="80">
+							</aside>
+							<div class="media-content">
+								<a href="book.html" class="title is-4 is-marginless">Tensorflow</a>
+								<br>
+								<span class="tag is-small is-rounded is-info">USD19.99</span>
+								<div class="content is-small">
+									200 pages
+									<br>
+									ISBN: 3938494994949494
+									<br>
+									<a href="edit-book.html">Edit</a>
+									<span>.</span>
+									<a href="">Delete</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		
+			<nav class="pagination">
+				<ul class="pagination-list">
+					<li><a href="" class="pagination-link">1</a></li>
+					<li><a href="" class="pagination-ellipsis">&hellip;</a></li>
+					<li><a href="" class="pagination-link">43</a></li>
+					<li><a href="" class="pagination-link is-current">44</a></li>
+					<li><a href="" class="pagination-link">45</a></li>
+					<li><a href="" class="pagination-ellipsis">&hellip;</a></li>
+					<li><a href="" class="pagination-link">88</a></li>
+				</ul>
+				<a href="" class="pagination-previous">Previous</a>
+				<a href="" class="pagination-next">Next</a>
+			</nav>
+
+		</div>
+	</div>
+</section>
+
+</body>
+</html>
